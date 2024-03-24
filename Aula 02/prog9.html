@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+    /*
+     Faça um algoritmo que leia três notas de um aluno, calcule e escreva 
+     a média final deste aluno. Considerar que a média é ponderada e que 
+     o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média
+    final é:
+                            n1 * 2 + n2 * 3 + n3 * 5
+             mediafinal = -----------------------------------
+                                     10 
+    */
+
+
+    var nota1 = Number(prompt('Informe a nota do aluno : '));
+    var nota2 = Number(prompt('Informe a nota do aluno : '));
+    var nota3 = Number(prompt('Informe a nota do aluno : '));
+    
+    var mp = (nota1 * 2 + nota2 * 2 + nota3 * 5) /10;
+
+    alert('Media ponderada : ' + mp.toFixed(2));
+
+</script>

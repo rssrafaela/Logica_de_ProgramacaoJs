@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<script>
+    /*
+    
+    Escreva um algoritmo para ler o salário mensal atual de um 
+    funcionário e o percentual de reajuste. Calcular e escrever o valor 
+    do novo salário. 
+
+    Ex:
+        Entrada
+            -> salario = 1000,  -> percentual = 10
+        Saida
+            -> salarionovo = 1100
+    
+    */
+
+    var salario = Number(prompt('Informe o salairo : '));
+    var percentual = Number(prompt('Informe o percentual de reajuste  : '));
+
+    var reajuste = (salario * percentual)/100;
+    var salarionovo = salario + reajuste;
+
+    alert('Salario novo : ' + salarionovo.toFixed(2));
+
+</script>

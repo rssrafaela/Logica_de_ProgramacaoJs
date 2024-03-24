@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+
+<script>
+    /*
+    Escreva um programa que leia dois
+    numeros.
+
+    A) O programa devera efetuar as 4 operações
+    básicas da matematica.
+
+    B) Imprimir os valores calculados.
+
+    Entrada - Processamento - Saida
+
+    */
+
+    // Variaveis -> Globais / de Script 
+    var num1;
+    var num2;
+
+    // Entrada de dados
+    num1 = Number(prompt('Informe o numero : '));
+    num2 = Number(prompt('Informe o numero : '));
+    
+    // Processamento -> (adição, subtração, multiplicação, divisão)
+    var adicao = num1 + num2;
+    var subtracao = num1 - num2;
+    var divisao = num1 / num2;
+    var multiplicacao = num1 * num2;
+
+    // Saida de dados 
+    // \n -> quebra de linha
+    var saida = `Adição : ${adicao}\nSutração : ${subtracao} \nMultiplicação : ${multiplicacao}\nDivisão : ${divisao}`;
+    alert(saida);
+
+</script>
